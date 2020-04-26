@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int
+main ()
+{
+  int week[] = { 0, 1, 2, 3, 5, 6, 7 };
+  int games[] = { 1, 2, 3, 4 };
+  int w = week[0];
+  int g = games[0];
+  if (w == 0 && g == 1)
+    {
+      cout << "Its Sunday and we have FootBall Match" << endl;
+    }
+  return 0;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+enum games {
+CRICKET = 1,
+TENNIS = 13,
+FOOTBALL = 26,
+BASKETBALL = 3
+} play;
+enum week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
+int main()
+{
+   play = FOOTBALL;
+week w = Sunday;
+if(w==Sunday && play ==FOOTBALL){
+cout<<"Its Sunday and we have FootBall Match"<<endl;
+   }
+return 0;
+}
